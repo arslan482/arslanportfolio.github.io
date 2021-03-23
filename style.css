@@ -299,6 +299,60 @@ section .title::after{
     margin: 10px 0 7px 0;
 }
 
+/* project section styling */
+.services1{
+    color:#fff;
+    background: #111;
+    margin-top: 25px;
+}
+.services1 .title::before{
+    background: #fff;
+}
+.services1 .title::after{
+    background: #111;
+    content: "My Wordpress";
+}
+.services1 .serv1-content .card{
+    width: calc(33% - 20px);
+    background: #222;
+    text-align: center;
+    border-radius: 6px;
+    padding: 20px 25px;
+    cursor: pointer;
+    transition: all 0.3s ease;
+    display: inline-block;
+    margin: 10px;
+
+}
+.services1 .text a{
+    color: #fff;
+    font-size: 25px;
+    font-weight: 500;
+    margin: 10px 0 7px 0;
+}
+.services1 .serv1-content .card:hover{
+    background: crimson;
+}
+.services1 .serv1-content .card .box{
+    transition: all 0.3s ease;
+}
+.services1 .serv1-content .card:hover .box{
+    transform: scale(1.05);
+}
+.services1 .serv1-content .card i{
+    font-size: 50px;
+    color: crimson;
+    transition: color 0.3s ease;
+}
+.services1 .serv1-content .card:hover i{
+    color: #fff;
+}
+.services1 .serv1-content .card .text{
+    font-size: 25px;
+    font-weight: 500;
+    margin: 10px 0 7px 0;
+}
+
 /* skills section styling */
 
 .skills .title::after{
